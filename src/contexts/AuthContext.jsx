@@ -1,157 +1,46 @@
-import React, { createContext, useState, useEffect, useContext } from 'react';
-import axios from 'axios';
-import { useWalletConnection } from './WalletConnectionContext.jsx';
+import { createContext, useContext, useEffect, useState } from 'react';
+import { useWallet } from '@solana/wallet-adapter-react';
+import { Connection, clusterApiUrl } from '@solana/web3.js';
 
 const AuthContext = createContext();
 
-export const useAuth = () => useContext(AuthContext);
-
-export const AuthProvider = ({ children }) => {
+export function AuthProvider({ children }) {
+  const { connected, publicKey, wallet } = useWallet();
   const [user, setUser] = useState(null);
-  const [token, setToken] = useState(localStorage.getItem('token'));
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const { connected, walletAddress, signMessage } = useWalletConnection();
+  const [loading, setLoading] = useState(true);
 
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
-  // Configura axios con il token
   useEffect(() => {
-    if (token) {
-      axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-    } else {
-      delete axios.defaults.headers.common['Authorization'];
-    }
-  }, [token]);
-
-  // Autentica l'utente quando il wallet è connesso
-  useEffect(() => {
-    const authenticateUser = async () => {
-      if (connected && walletAddress) {
+    if (connected && publicKey) {
+      // Simuliamo il recupero dei dati utente dal tuo backend
+      const fetchUserData = async () => {
         try {
-          setLoading(true);
-          setError(null);
-          
-          // Crea un messaggio di autenticazione con timestamp per evitare replay attack
-          const timestamp = Date.now();
-          const message = `Accedi a TellOnSol con il wallet: ${walletAddress} al timestamp: ${timestamp}`;
-          
-          // Firma il messaggio con il wallet
-          const { signature } = await signMessage(message);
-          
-          // Invia la richiesta di autenticazione al backend
-          const response = await axios.post(`${API_URL}/users/auth`, {
-            walletAddress,
-            signature,
-            message
-          });
-          
-          // Salva il token e i dati utente
-          const { token: newToken, ...userData } = response.data;
-          localStorage.setItem('token', newToken);
-          setToken(newToken);
+          const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/users/${publicKey.toString()}`);
+          const userData = await response.json();
           setUser(userData);
-        } catch (err) {
-          console.error('Errore di autenticazione:', err);
-          setError(err.response?.data?.message || 'Errore di autenticazione');
+        } catch (error) {
+          console.error("Error fetching user data:", error);
         } finally {
           setLoading(false);
         }
-      }
-    };
-    
-    authenticateUser();
-  }, [connected, walletAddress, signMessage]);
-
-  // Logout
-  const logout = async () => {
-    try {
-      if (token) {
-        await axios.post(`${API_URL}/users/logout`);
-      }
-    } catch (err) {
-      console.error('Errore durante il logout:', err);
-    } finally {
-      localStorage.removeItem('token');
-      setToken(null);
+      };
+      
+      fetchUserData();
+    } else {
       setUser(null);
-    }
-  };
-
-  // Aggiorna il profilo utente
-  const updateProfile = async (profileData) => {
-    try {
-      setLoading(true);
-      setError(null);
-      
-      const response = await axios.put(`${API_URL}/users/profile`, profileData);
-      
-      setUser(prevUser => ({
-        ...prevUser,
-        ...response.data
-      }));
-      
-      return response.data;
-    } catch (err) {
-      console.error('Errore nell\'aggiornamento del profilo:', err);
-      setError(err.response?.data?.message || 'Errore nell\'aggiornamento del profilo');
-      throw err;
-    } finally {
       setLoading(false);
     }
+  }, [connected, publicKey]);
+
+  const value = {
+    isAuthenticated: connected,
+    user,
+    loading,
+    wallet
   };
 
-  // Ottieni le sessioni attive
-  const getSessions = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-      
-      const response = await axios.get(`${API_URL}/users/sessions`);
-      
-      return response.data;
-    } catch (err) {
-      console.error('Errore nel recupero delle sessioni:', err);
-      setError(err.response?.data?.message || 'Errore nel recupero delle sessioni');
-      throw err;
-    } finally {
-      setLoading(false);
-    }
-  };
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+}
 
-  // Termina una sessione specifica
-  const terminateSession = async (sessionToken) => {
-    try {
-      setLoading(true);
-      setError(null);
-      
-      await axios.delete(`${API_URL}/users/sessions/${sessionToken}`);
-      
-      return true;
-    } catch (err) {
-      console.error('Errore nella terminazione della sessione:', err);
-      setError(err.response?.data?.message || 'Errore nella terminazione della sessione');
-      throw err;
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  return (
-    <AuthContext.Provider
-      value={{
-        user,
-        token,
-        loading,
-        error,
-        logout,
-        updateProfile,
-        getSessions,
-        terminateSession,
-        isAuthenticated: !!user && !!token
-      }}
-    >
-      {children}
-    </AuthContext.Provider>
-  );
-};
+export function useAuth() {
+  return useContext(AuthContext);
+}
