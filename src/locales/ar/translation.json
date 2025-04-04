@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "مراسلة آمنة على بلوكتشين سولانا"
+  },
+  "login": {
+    "tagline": "مراسلة آمنة على بلوكتشين سولانا",
+    "connectWallet": "اتصل بمحفظتك",
+    "selectWallet": "اختر محفظة سولانا المفضلة لديك للمتابعة",
+    "connectedWith": "متصل بمحفظة:",
+    "authenticating": "جاري المصادقة...",
+    "secureMessaging": "مراسلة مشفرة من طرف إلى طرف مع مصادقة محفظة سولانا",
+    "features": {
+      "encryption": {
+        "title": "تشفير من طرف إلى طرف",
+        "description": "جميع الرسائل مشفرة باستخدام بروتوكول Signal، مما يضمن أنه يمكنك أنت والمستلم فقط قراءتها."
+      },
+      "wallets": {
+        "title": "دعم محافظ متعددة",
+        "description": "اتصل بـ Phantom و Solflare و Sollet وغيرها من محافظ سولانا الشائعة."
+      },
+      "privacy": {
+        "title": "الخصوصية أولاً",
+        "description": "محادثاتك خاصة. نحن لا نخزن أو نصل إلى رسائلك."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "رسالة جديدة",
+    "sendMessage": "إرسال رسالة",
+    "attachFile": "إرفاق ملف",
+    "typing": "يكتب...",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "lastSeen": "شوهد آخر مرة {{time}}",
+    "messageDelivered": "تم التسليم",
+    "messageRead": "تمت القراءة",
+    "messageSent": "تم الإرسال",
+    "noConversation": {
+      "title": "لم يتم تحديد محادثة",
+      "description": "اختر جهة اتصال لبدء الدردشة"
+    }
+  },
+  "contacts": {
+    "title": "جهات الاتصال",
+    "searchPlaceholder": "البحث عن طريق اسم المستخدم أو عنوان المحفظة",
+    "search": "بحث",
+    "searching": "جاري البحث...",
+    "searchResults": "نتائج البحث",
+    "add": "إضافة",
+    "block": "حظر",
+    "unblock": "إلغاء الحظر",
+    "delete": "حذف",
+    "statusPending": "قيد الانتظار",
+    "statusBlocked": "محظور",
+    "tabs": {
+      "all": "الكل",
+      "pending": "قيد الانتظار",
+      "blocked": "محظور"
+    },
+    "noContacts": "لم يتم العثور على جهات اتصال",
+    "noPendingContacts": "لا توجد جهات اتصال قيد الانتظار",
+    "noBlockedContacts": "لا توجد جهات اتصال محظورة",
+    "addSuccess": "تمت إضافة جهة الاتصال بنجاح",
+    "addError": "خطأ في إضافة جهة الاتصال",
+    "blockSuccess": "تم حظر جهة الاتصال بنجاح",
+    "blockError": "خطأ في حظر جهة الاتصال",
+    "unblockSuccess": "تم إلغاء حظر جهة الاتصال بنجاح",
+    "unblockError": "خطأ في إلغاء حظر جهة الاتصال",
+    "deleteSuccess": "تم حذف جهة الاتصال بنجاح",
+    "deleteError": "خطأ في حذف جهة الاتصال",
+    "searchError": "خطأ في البحث عن المستخدمين"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "أدخل اسم المستخدم الخاص بك",
+    "displayName": "الاسم المعروض",
+    "displayNamePlaceholder": "أدخل الاسم المعروض الخاص بك",
+    "bio": "نبذة",
+    "bioPlaceholder": "أخبر الآخرين عن نفسك",
+    "walletAddress": "عنوان المحفظة",
+    "profilePicture": "صورة الملف الشخصي",
+    "changePicture": "تغيير الصورة",
+    "uploading": "جاري التحميل...",
+    "saveChanges": "حفظ التغييرات",
+    "saving": "جاري الحفظ...",
+    "updateSuccess": "تم تحديث الملف الشخصي بنجاح"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "tabs": {
+      "privacy": "الخصوصية",
+      "security": "الأمان",
+      "language": "اللغة",
+      "sessions": "الجلسات"
+    },
+    "privacy": {
+      "title": "إعدادات الخصوصية",
+      "profileVisibility": "رؤية الملف الشخصي",
+      "public": "عام",
+      "contacts": "جهات الاتصال فقط",
+      "private": "خاص",
+      "lastSeen": "آخر ظهور",
+      "everyone": "الجميع",
+      "nobody": "لا أحد",
+      "readReceipts": "إرسال إشعارات القراءة"
+    },
+    "security": {
+      "title": "إعدادات الأمان",
+      "twoFactor": "تفعيل المصادقة الثنائية",
+      "loginNotifications": "إشعارات تسجيل الدخول"
+    },
+    "language": {
+      "title": "إعدادات اللغة",
+      "select": "اختر اللغة"
+    },
+    "sessions": {
+      "title": "الجلسات النشطة",
+      "loading": "جاري تحميل الجلسات...",
+      "noSessions": "لم يتم العثور على جلسات نشطة",
+      "terminate": "إنهاء"
+    },
+    "saveChanges": "حفظ التغييرات",
+    "saving": "جاري الحفظ...",
+    "saveSuccess": "تم حفظ الإعدادات بنجاح"
+  },
+  "files": {
+    "title": "الملفات",
+    "uploadFile": "تحميل ملف",
+    "uploading": "جاري التحميل...",
+    "loading": "جاري تحميل الملفات...",
+    "noFiles": "لم يتم العثور على ملفات",
+    "shareFile": "مشاركة ملف",
+    "shareWith": "مشاركة \"{{fileName}}\" مع:",
+    "searchPlaceholder": "البحث عن مستخدمين",
+    "search": "بحث",
+    "share": "مشاركة",
+    "cancel": "إلغاء",
+    "uploadSuccess": "تم تحميل الملف بنجاح",
+    "uploadError": "خطأ في تحميل الملف",
+    "deleteSuccess": "تم حذف الملف بنجاح",
+    "deleteError": "خطأ في حذف الملف",
+    "shareSuccess": "تمت مشاركة الملف بنجاح",
+    "shareError": "خطأ في مشاركة الملف",
+    "searchError": "خطأ في البحث عن المستخدمين",
+    "loadError": "خطأ في تحميل الملفات"
+  },
+  "errors": {
+    "general": "حدث خطأ",
+    "network": "خطأ في الشبكة",
+    "unauthorized": "غير مصرح",
+    "notFound": "غير موجود",
+    "serverError": "خطأ في الخادم"
+  }
+}

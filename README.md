@@ -1,1 +1,1 @@
-# teoso
+# tellonsol-frontend

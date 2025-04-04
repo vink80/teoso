@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Безопасный обмен сообщениями на блокчейне Solana"
+  },
+  "login": {
+    "tagline": "Безопасный обмен сообщениями на блокчейне Solana",
+    "connectWallet": "Подключите ваш кошелек",
+    "selectWallet": "Выберите предпочитаемый кошелек Solana для продолжения",
+    "connectedWith": "Подключен кошелек:",
+    "authenticating": "Аутентификация...",
+    "secureMessaging": "Сквозное шифрование сообщений с аутентификацией через кошелек Solana",
+    "features": {
+      "encryption": {
+        "title": "Сквозное шифрование",
+        "description": "Все сообщения шифруются с использованием протокола Signal, гарантируя, что только вы и получатель можете их прочитать."
+      },
+      "wallets": {
+        "title": "Поддержка нескольких кошельков",
+        "description": "Подключайтесь с помощью Phantom, Solflare, Sollet и других популярных кошельков Solana."
+      },
+      "privacy": {
+        "title": "Приватность прежде всего",
+        "description": "Ваши разговоры приватны. Мы не храним и не имеем доступа к вашим сообщениям."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "Новое сообщение",
+    "sendMessage": "Отправить сообщение",
+    "attachFile": "Прикрепить файл",
+    "typing": "печатает...",
+    "online": "в сети",
+    "offline": "не в сети",
+    "lastSeen": "был(а) в сети {{time}}",
+    "messageDelivered": "Доставлено",
+    "messageRead": "Прочитано",
+    "messageSent": "Отправлено",
+    "noConversation": {
+      "title": "Беседа не выбрана",
+      "description": "Выберите контакт, чтобы начать общение"
+    }
+  },
+  "contacts": {
+    "title": "Контакты",
+    "searchPlaceholder": "Поиск по имени пользователя или адресу кошелька",
+    "search": "Поиск",
+    "searching": "Поиск...",
+    "searchResults": "Результаты поиска",
+    "add": "Добавить",
+    "block": "Заблокировать",
+    "unblock": "Разблокировать",
+    "delete": "Удалить",
+    "statusPending": "Ожидание",
+    "statusBlocked": "Заблокирован",
+    "tabs": {
+      "all": "Все",
+      "pending": "Ожидающие",
+      "blocked": "Заблокированные"
+    },
+    "noContacts": "Контакты не найдены",
+    "noPendingContacts": "Нет ожидающих контактов",
+    "noBlockedContacts": "Нет заблокированных контактов",
+    "addSuccess": "Контакт успешно добавлен",
+    "addError": "Ошибка при добавлении контакта",
+    "blockSuccess": "Контакт успешно заблокирован",
+    "blockError": "Ошибка при блокировке контакта",
+    "unblockSuccess": "Контакт успешно разблокирован",
+    "unblockError": "Ошибка при разблокировке контакта",
+    "deleteSuccess": "Контакт успешно удален",
+    "deleteError": "Ошибка при удалении контакта",
+    "searchError": "Ошибка при поиске пользователей"
+  },
+  "profile": {
+    "title": "Профиль",
+    "username": "Имя пользователя",
+    "usernamePlaceholder": "Введите ваше имя пользователя",
+    "displayName": "Отображаемое имя",
+    "displayNamePlaceholder": "Введите ваше отображаемое имя",
+    "bio": "О себе",
+    "bioPlaceholder": "Расскажите о себе",
+    "walletAddress": "Адрес кошелька",
+    "profilePicture": "Фото профиля",
+    "changePicture": "Изменить фото",
+    "uploading": "Загрузка...",
+    "saveChanges": "Сохранить изменения",
+    "saving": "Сохранение...",
+    "updateSuccess": "Профиль успешно обновлен"
+  },
+  "settings": {
+    "title": "Настройки",
+    "tabs": {
+      "privacy": "Приватность",
+      "security": "Безопасность",
+      "language": "Язык",
+      "sessions": "Сессии"
+    },
+    "privacy": {
+      "title": "Настройки приватности",
+      "profileVisibility": "Видимость профиля",
+      "public": "Публичный",
+      "contacts": "Только контакты",
+      "private": "Приватный",
+      "lastSeen": "Последний раз в сети",
+      "everyone": "Все",
+      "nobody": "Никто",
+      "readReceipts": "Отправлять уведомления о прочтении"
+    },
+    "security": {
+      "title": "Настройки безопасности",
+      "twoFactor": "Включить двухфакторную аутентификацию",
+      "loginNotifications": "Уведомления о входе"
+    },
+    "language": {
+      "title": "Настройки языка",
+      "select": "Выберите язык"
+    },
+    "sessions": {
+      "title": "Активные сессии",
+      "loading": "Загрузка сессий...",
+      "noSessions": "Активные сессии не найдены",
+      "terminate": "Завершить"
+    },
+    "saveChanges": "Сохранить изменения",
+    "saving": "Сохранение...",
+    "saveSuccess": "Настройки успешно сохранены"
+  },
+  "files": {
+    "title": "Файлы",
+    "uploadFile": "Загрузить файл",
+    "uploading": "Загрузка...",
+    "loading": "Загрузка файлов...",
+    "noFiles": "Файлы не найдены",
+    "shareFile": "Поделиться файлом",
+    "shareWith": "Поделиться \"{{fileName}}\" с:",
+    "searchPlaceholder": "Поиск пользователей",
+    "search": "Поиск",
+    "share": "Поделиться",
+    "cancel": "Отмена",
+    "uploadSuccess": "Файл успешно загружен",
+    "uploadError": "Ошибка при загрузке файла",
+    "deleteSuccess": "Файл успешно удален",
+    "deleteError": "Ошибка при удалении файла",
+    "shareSuccess": "Файл успешно отправлен",
+    "shareError": "Ошибка при отправке файла",
+    "searchError": "Ошибка при поиске пользователей",
+    "loadError": "Ошибка при загрузке файлов"
+  },
+  "errors": {
+    "general": "Произошла ошибка",
+    "network": "Ошибка сети",
+    "unauthorized": "Не авторизован",
+    "notFound": "Не найдено",
+    "serverError": "Ошибка сервера"
+  }
+}

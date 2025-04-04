@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Mensajería segura en la blockchain de Solana"
+  },
+  "login": {
+    "tagline": "Mensajería segura en la blockchain de Solana",
+    "connectWallet": "Conecta tu wallet",
+    "selectWallet": "Selecciona tu wallet de Solana preferido para continuar",
+    "connectedWith": "Conectado con wallet:",
+    "authenticating": "Autenticando...",
+    "secureMessaging": "Mensajería cifrada de extremo a extremo con autenticación de wallet Solana",
+    "features": {
+      "encryption": {
+        "title": "Cifrado de Extremo a Extremo",
+        "description": "Todos los mensajes están cifrados usando el protocolo Signal, asegurando que solo tú y tu destinatario puedan leerlos."
+      },
+      "wallets": {
+        "title": "Soporte para Múltiples Wallets",
+        "description": "Conéctate con Phantom, Solflare, Sollet y otros wallets populares de Solana."
+      },
+      "privacy": {
+        "title": "Privacidad Primero",
+        "description": "Tus conversaciones son privadas. No almacenamos ni tenemos acceso a tus mensajes."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "Nuevo mensaje",
+    "sendMessage": "Enviar mensaje",
+    "attachFile": "Adjuntar archivo",
+    "typing": "escribiendo...",
+    "online": "en línea",
+    "offline": "desconectado",
+    "lastSeen": "última vez {{time}}",
+    "messageDelivered": "Entregado",
+    "messageRead": "Leído",
+    "messageSent": "Enviado",
+    "noConversation": {
+      "title": "Ninguna conversación seleccionada",
+      "description": "Selecciona un contacto para comenzar a chatear"
+    }
+  },
+  "contacts": {
+    "title": "Contactos",
+    "searchPlaceholder": "Buscar por nombre de usuario o dirección de wallet",
+    "search": "Buscar",
+    "searching": "Buscando...",
+    "searchResults": "Resultados de la Búsqueda",
+    "add": "Añadir",
+    "block": "Bloquear",
+    "unblock": "Desbloquear",
+    "delete": "Eliminar",
+    "statusPending": "Pendiente",
+    "statusBlocked": "Bloqueado",
+    "tabs": {
+      "all": "Todos",
+      "pending": "Pendientes",
+      "blocked": "Bloqueados"
+    },
+    "noContacts": "No se encontraron contactos",
+    "noPendingContacts": "No hay contactos pendientes",
+    "noBlockedContacts": "No hay contactos bloqueados",
+    "addSuccess": "Contacto añadido con éxito",
+    "addError": "Error al añadir contacto",
+    "blockSuccess": "Contacto bloqueado con éxito",
+    "blockError": "Error al bloquear contacto",
+    "unblockSuccess": "Contacto desbloqueado con éxito",
+    "unblockError": "Error al desbloquear contacto",
+    "deleteSuccess": "Contacto eliminado con éxito",
+    "deleteError": "Error al eliminar contacto",
+    "searchError": "Error al buscar usuarios"
+  },
+  "profile": {
+    "title": "Perfil",
+    "username": "Nombre de usuario",
+    "usernamePlaceholder": "Introduce tu nombre de usuario",
+    "displayName": "Nombre para mostrar",
+    "displayNamePlaceholder": "Introduce tu nombre para mostrar",
+    "bio": "Biografía",
+    "bioPlaceholder": "Cuéntale a los demás sobre ti",
+    "walletAddress": "Dirección de Wallet",
+    "profilePicture": "Foto de Perfil",
+    "changePicture": "Cambiar Foto",
+    "uploading": "Subiendo...",
+    "saveChanges": "Guardar Cambios",
+    "saving": "Guardando...",
+    "updateSuccess": "Perfil actualizado con éxito"
+  },
+  "settings": {
+    "title": "Configuración",
+    "tabs": {
+      "privacy": "Privacidad",
+      "security": "Seguridad",
+      "language": "Idioma",
+      "sessions": "Sesiones"
+    },
+    "privacy": {
+      "title": "Configuración de Privacidad",
+      "profileVisibility": "Visibilidad del Perfil",
+      "public": "Público",
+      "contacts": "Solo Contactos",
+      "private": "Privado",
+      "lastSeen": "Última Vez Visto",
+      "everyone": "Todos",
+      "nobody": "Nadie",
+      "readReceipts": "Enviar Confirmaciones de Lectura"
+    },
+    "security": {
+      "title": "Configuración de Seguridad",
+      "twoFactor": "Habilitar Autenticación de Dos Factores",
+      "loginNotifications": "Notificaciones de Inicio de Sesión"
+    },
+    "language": {
+      "title": "Configuración de Idioma",
+      "select": "Seleccionar Idioma"
+    },
+    "sessions": {
+      "title": "Sesiones Activas",
+      "loading": "Cargando sesiones...",
+      "noSessions": "No se encontraron sesiones activas",
+      "terminate": "Terminar"
+    },
+    "saveChanges": "Guardar Cambios",
+    "saving": "Guardando...",
+    "saveSuccess": "Configuración guardada con éxito"
+  },
+  "files": {
+    "title": "Archivos",
+    "uploadFile": "Subir Archivo",
+    "uploading": "Subiendo...",
+    "loading": "Cargando archivos...",
+    "noFiles": "No se encontraron archivos",
+    "shareFile": "Compartir Archivo",
+    "shareWith": "Compartir \"{{fileName}}\" con:",
+    "searchPlaceholder": "Buscar usuarios",
+    "search": "Buscar",
+    "share": "Compartir",
+    "cancel": "Cancelar",
+    "uploadSuccess": "Archivo subido con éxito",
+    "uploadError": "Error al subir archivo",
+    "deleteSuccess": "Archivo eliminado con éxito",
+    "deleteError": "Error al eliminar archivo",
+    "shareSuccess": "Archivo compartido con éxito",
+    "shareError": "Error al compartir archivo",
+    "searchError": "Error al buscar usuarios",
+    "loadError": "Error al cargar archivos"
+  },
+  "errors": {
+    "general": "Se ha producido un error",
+    "network": "Error de red",
+    "unauthorized": "No autorizado",
+    "notFound": "No encontrado",
+    "serverError": "Error del servidor"
+  }
+}

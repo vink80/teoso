@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Solana blockchain üzerinde güvenli mesajlaşma"
+  },
+  "login": {
+    "tagline": "Solana blockchain üzerinde güvenli mesajlaşma",
+    "connectWallet": "Cüzdanını bağla",
+    "selectWallet": "Devam etmek için tercih ettiğiniz Solana cüzdanını seçin",
+    "connectedWith": "Bağlı cüzdan:",
+    "authenticating": "Kimlik doğrulanıyor...",
+    "secureMessaging": "Solana cüzdan kimlik doğrulaması ile uçtan uca şifreli mesajlaşma",
+    "features": {
+      "encryption": {
+        "title": "Uçtan Uca Şifreleme",
+        "description": "Tüm mesajlar Signal protokolü kullanılarak şifrelenir, yalnızca sizin ve alıcınızın okuyabileceğinden emin olunur."
+      },
+      "wallets": {
+        "title": "Çoklu Cüzdan Desteği",
+        "description": "Phantom, Solflare, Sollet ve diğer popüler Solana cüzdanları ile bağlanın."
+      },
+      "privacy": {
+        "title": "Önce Gizlilik",
+        "description": "Konuşmalarınız özeldir. Mesajlarınızı saklamıyoruz veya erişimimiz yok."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "Yeni mesaj",
+    "sendMessage": "Mesaj gönder",
+    "attachFile": "Dosya ekle",
+    "typing": "yazıyor...",
+    "online": "çevrimiçi",
+    "offline": "çevrimdışı",
+    "lastSeen": "son görülme {{time}}",
+    "messageDelivered": "İletildi",
+    "messageRead": "Okundu",
+    "messageSent": "Gönderildi",
+    "noConversation": {
+      "title": "Seçili konuşma yok",
+      "description": "Sohbet etmeye başlamak için bir kişi seçin"
+    }
+  },
+  "contacts": {
+    "title": "Kişiler",
+    "searchPlaceholder": "Kullanıcı adı veya cüzdan adresi ile ara",
+    "search": "Ara",
+    "searching": "Aranıyor...",
+    "searchResults": "Arama Sonuçları",
+    "add": "Ekle",
+    "block": "Engelle",
+    "unblock": "Engeli Kaldır",
+    "delete": "Sil",
+    "statusPending": "Beklemede",
+    "statusBlocked": "Engellendi",
+    "tabs": {
+      "all": "Tümü",
+      "pending": "Bekleyen",
+      "blocked": "Engellenen"
+    },
+    "noContacts": "Kişi bulunamadı",
+    "noPendingContacts": "Bekleyen kişi yok",
+    "noBlockedContacts": "Engellenen kişi yok",
+    "addSuccess": "Kişi başarıyla eklendi",
+    "addError": "Kişi eklenirken hata oluştu",
+    "blockSuccess": "Kişi başarıyla engellendi",
+    "blockError": "Kişi engellenirken hata oluştu",
+    "unblockSuccess": "Kişinin engeli başarıyla kaldırıldı",
+    "unblockError": "Kişinin engeli kaldırılırken hata oluştu",
+    "deleteSuccess": "Kişi başarıyla silindi",
+    "deleteError": "Kişi silinirken hata oluştu",
+    "searchError": "Kullanıcılar aranırken hata oluştu"
+  },
+  "profile": {
+    "title": "Profil",
+    "username": "Kullanıcı adı",
+    "usernamePlaceholder": "Kullanıcı adınızı girin",
+    "displayName": "Görünen Ad",
+    "displayNamePlaceholder": "Görünen adınızı girin",
+    "bio": "Hakkında",
+    "bioPlaceholder": "Kendiniz hakkında bilgi verin",
+    "walletAddress": "Cüzdan Adresi",
+    "profilePicture": "Profil Resmi",
+    "changePicture": "Resmi Değiştir",
+    "uploading": "Yükleniyor...",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "saving": "Kaydediliyor...",
+    "updateSuccess": "Profil başarıyla güncellendi"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "tabs": {
+      "privacy": "Gizlilik",
+      "security": "Güvenlik",
+      "language": "Dil",
+      "sessions": "Oturumlar"
+    },
+    "privacy": {
+      "title": "Gizlilik Ayarları",
+      "profileVisibility": "Profil Görünürlüğü",
+      "public": "Herkese Açık",
+      "contacts": "Sadece Kişiler",
+      "private": "Özel",
+      "lastSeen": "Son Görülme",
+      "everyone": "Herkes",
+      "nobody": "Hiç Kimse",
+      "readReceipts": "Okundu Bilgisi Gönder"
+    },
+    "security": {
+      "title": "Güvenlik Ayarları",
+      "twoFactor": "İki Faktörlü Kimlik Doğrulamayı Etkinleştir",
+      "loginNotifications": "Giriş Bildirimleri"
+    },
+    "language": {
+      "title": "Dil Ayarları",
+      "select": "Dil Seçin"
+    },
+    "sessions": {
+      "title": "Aktif Oturumlar",
+      "loading": "Oturumlar yükleniyor...",
+      "noSessions": "Aktif oturum bulunamadı",
+      "terminate": "Sonlandır"
+    },
+    "saveChanges": "Değişiklikleri Kaydet",
+    "saving": "Kaydediliyor...",
+    "saveSuccess": "Ayarlar başarıyla kaydedildi"
+  },
+  "files": {
+    "title": "Dosyalar",
+    "uploadFile": "Dosya Yükle",
+    "uploading": "Yükleniyor...",
+    "loading": "Dosyalar yükleniyor...",
+    "noFiles": "Dosya bulunamadı",
+    "shareFile": "Dosya Paylaş",
+    "shareWith": "\"{{fileName}}\" dosyasını şununla paylaş:",
+    "searchPlaceholder": "Kullanıcı ara",
+    "search": "Ara",
+    "share": "Paylaş",
+    "cancel": "İptal",
+    "uploadSuccess": "Dosya başarıyla yüklendi",
+    "uploadError": "Dosya yüklenirken hata oluştu",
+    "deleteSuccess": "Dosya başarıyla silindi",
+    "deleteError": "Dosya silinirken hata oluştu",
+    "shareSuccess": "Dosya başarıyla paylaşıldı",
+    "shareError": "Dosya paylaşılırken hata oluştu",
+    "searchError": "Kullanıcılar aranırken hata oluştu",
+    "loadError": "Dosyalar yüklenirken hata oluştu"
+  },
+  "errors": {
+    "general": "Bir hata oluştu",
+    "network": "Ağ hatası",
+    "unauthorized": "Yetkisiz",
+    "notFound": "Bulunamadı",
+    "serverError": "Sunucu hatası"
+  }
+}

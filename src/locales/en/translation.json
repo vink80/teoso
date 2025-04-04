@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Secure messaging on Solana blockchain"
+  },
+  "login": {
+    "tagline": "Secure messaging on Solana blockchain",
+    "connectWallet": "Connect your wallet",
+    "selectWallet": "Select your preferred Solana wallet to continue",
+    "connectedWith": "Connected with wallet:",
+    "authenticating": "Authenticating...",
+    "secureMessaging": "End-to-end encrypted messaging with Solana wallet authentication",
+    "features": {
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "All messages are encrypted using the Signal protocol, ensuring only you and your recipient can read them."
+      },
+      "wallets": {
+        "title": "Multiple Wallet Support",
+        "description": "Connect with Phantom, Solflare, Sollet, and other popular Solana wallets."
+      },
+      "privacy": {
+        "title": "Privacy First",
+        "description": "Your conversations are private. We don't store or have access to your messages."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "New message",
+    "sendMessage": "Send message",
+    "attachFile": "Attach file",
+    "typing": "typing...",
+    "online": "online",
+    "offline": "offline",
+    "lastSeen": "last seen {{time}}",
+    "messageDelivered": "Delivered",
+    "messageRead": "Read",
+    "messageSent": "Sent",
+    "noConversation": {
+      "title": "No conversation selected",
+      "description": "Select a contact to start chatting"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "searchPlaceholder": "Search by username or wallet address",
+    "search": "Search",
+    "searching": "Searching...",
+    "searchResults": "Search Results",
+    "add": "Add",
+    "block": "Block",
+    "unblock": "Unblock",
+    "delete": "Delete",
+    "statusPending": "Pending",
+    "statusBlocked": "Blocked",
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "blocked": "Blocked"
+    },
+    "noContacts": "No contacts found",
+    "noPendingContacts": "No pending contacts",
+    "noBlockedContacts": "No blocked contacts",
+    "addSuccess": "Contact added successfully",
+    "addError": "Error adding contact",
+    "blockSuccess": "Contact blocked successfully",
+    "blockError": "Error blocking contact",
+    "unblockSuccess": "Contact unblocked successfully",
+    "unblockError": "Error unblocking contact",
+    "deleteSuccess": "Contact deleted successfully",
+    "deleteError": "Error deleting contact",
+    "searchError": "Error searching for users"
+  },
+  "profile": {
+    "title": "Profile",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "displayName": "Display Name",
+    "displayNamePlaceholder": "Enter your display name",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell others about yourself",
+    "walletAddress": "Wallet Address",
+    "profilePicture": "Profile Picture",
+    "changePicture": "Change Picture",
+    "uploading": "Uploading...",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "updateSuccess": "Profile updated successfully"
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "privacy": "Privacy",
+      "security": "Security",
+      "language": "Language",
+      "sessions": "Sessions"
+    },
+    "privacy": {
+      "title": "Privacy Settings",
+      "profileVisibility": "Profile Visibility",
+      "public": "Public",
+      "contacts": "Contacts Only",
+      "private": "Private",
+      "lastSeen": "Last Seen",
+      "everyone": "Everyone",
+      "nobody": "Nobody",
+      "readReceipts": "Send Read Receipts"
+    },
+    "security": {
+      "title": "Security Settings",
+      "twoFactor": "Enable Two-Factor Authentication",
+      "loginNotifications": "Login Notifications"
+    },
+    "language": {
+      "title": "Language Settings",
+      "select": "Select Language"
+    },
+    "sessions": {
+      "title": "Active Sessions",
+      "loading": "Loading sessions...",
+      "noSessions": "No active sessions found",
+      "terminate": "Terminate"
+    },
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "saveSuccess": "Settings saved successfully"
+  },
+  "files": {
+    "title": "Files",
+    "uploadFile": "Upload File",
+    "uploading": "Uploading...",
+    "loading": "Loading files...",
+    "noFiles": "No files found",
+    "shareFile": "Share File",
+    "shareWith": "Share \"{{fileName}}\" with:",
+    "searchPlaceholder": "Search for users",
+    "search": "Search",
+    "share": "Share",
+    "cancel": "Cancel",
+    "uploadSuccess": "File uploaded successfully",
+    "uploadError": "Error uploading file",
+    "deleteSuccess": "File deleted successfully",
+    "deleteError": "Error deleting file",
+    "shareSuccess": "File shared successfully",
+    "shareError": "Error sharing file",
+    "searchError": "Error searching for users",
+    "loadError": "Error loading files"
+  },
+  "errors": {
+    "general": "An error occurred",
+    "network": "Network error",
+    "unauthorized": "Unauthorized",
+    "notFound": "Not found",
+    "serverError": "Server error"
+  }
+}

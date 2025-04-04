@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Messagerie sécurisée sur la blockchain Solana"
+  },
+  "login": {
+    "tagline": "Messagerie sécurisée sur la blockchain Solana",
+    "connectWallet": "Connectez votre portefeuille",
+    "selectWallet": "Sélectionnez votre portefeuille Solana préféré pour continuer",
+    "connectedWith": "Connecté avec le portefeuille :",
+    "authenticating": "Authentification en cours...",
+    "secureMessaging": "Messagerie chiffrée de bout en bout avec authentification par portefeuille Solana",
+    "features": {
+      "encryption": {
+        "title": "Chiffrement de Bout en Bout",
+        "description": "Tous les messages sont chiffrés à l'aide du protocole Signal, garantissant que seuls vous et votre destinataire pouvez les lire."
+      },
+      "wallets": {
+        "title": "Support Multi-Portefeuilles",
+        "description": "Connectez-vous avec Phantom, Solflare, Sollet et autres portefeuilles Solana populaires."
+      },
+      "privacy": {
+        "title": "Confidentialité Avant Tout",
+        "description": "Vos conversations sont privées. Nous ne stockons pas et n'avons pas accès à vos messages."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "Nouveau message",
+    "sendMessage": "Envoyer un message",
+    "attachFile": "Joindre un fichier",
+    "typing": "en train d'écrire...",
+    "online": "en ligne",
+    "offline": "hors ligne",
+    "lastSeen": "vu(e) {{time}}",
+    "messageDelivered": "Livré",
+    "messageRead": "Lu",
+    "messageSent": "Envoyé",
+    "noConversation": {
+      "title": "Aucune conversation sélectionnée",
+      "description": "Sélectionnez un contact pour commencer à discuter"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "searchPlaceholder": "Rechercher par nom d'utilisateur ou adresse de portefeuille",
+    "search": "Rechercher",
+    "searching": "Recherche en cours...",
+    "searchResults": "Résultats de la Recherche",
+    "add": "Ajouter",
+    "block": "Bloquer",
+    "unblock": "Débloquer",
+    "delete": "Supprimer",
+    "statusPending": "En attente",
+    "statusBlocked": "Bloqué",
+    "tabs": {
+      "all": "Tous",
+      "pending": "En attente",
+      "blocked": "Bloqués"
+    },
+    "noContacts": "Aucun contact trouvé",
+    "noPendingContacts": "Aucun contact en attente",
+    "noBlockedContacts": "Aucun contact bloqué",
+    "addSuccess": "Contact ajouté avec succès",
+    "addError": "Erreur lors de l'ajout du contact",
+    "blockSuccess": "Contact bloqué avec succès",
+    "blockError": "Erreur lors du blocage du contact",
+    "unblockSuccess": "Contact débloqué avec succès",
+    "unblockError": "Erreur lors du déblocage du contact",
+    "deleteSuccess": "Contact supprimé avec succès",
+    "deleteError": "Erreur lors de la suppression du contact",
+    "searchError": "Erreur lors de la recherche d'utilisateurs"
+  },
+  "profile": {
+    "title": "Profil",
+    "username": "Nom d'utilisateur",
+    "usernamePlaceholder": "Entrez votre nom d'utilisateur",
+    "displayName": "Nom d'affichage",
+    "displayNamePlaceholder": "Entrez votre nom d'affichage",
+    "bio": "Bio",
+    "bioPlaceholder": "Parlez de vous aux autres",
+    "walletAddress": "Adresse du Portefeuille",
+    "profilePicture": "Photo de Profil",
+    "changePicture": "Changer la Photo",
+    "uploading": "Téléchargement en cours...",
+    "saveChanges": "Enregistrer les Modifications",
+    "saving": "Enregistrement en cours...",
+    "updateSuccess": "Profil mis à jour avec succès"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "tabs": {
+      "privacy": "Confidentialité",
+      "security": "Sécurité",
+      "language": "Langue",
+      "sessions": "Sessions"
+    },
+    "privacy": {
+      "title": "Paramètres de Confidentialité",
+      "profileVisibility": "Visibilité du Profil",
+      "public": "Public",
+      "contacts": "Contacts Uniquement",
+      "private": "Privé",
+      "lastSeen": "Dernière Connexion",
+      "everyone": "Tout le monde",
+      "nobody": "Personne",
+      "readReceipts": "Envoyer des Accusés de Lecture"
+    },
+    "security": {
+      "title": "Paramètres de Sécurité",
+      "twoFactor": "Activer l'Authentification à Deux Facteurs",
+      "loginNotifications": "Notifications de Connexion"
+    },
+    "language": {
+      "title": "Paramètres de Langue",
+      "select": "Sélectionner la Langue"
+    },
+    "sessions": {
+      "title": "Sessions Actives",
+      "loading": "Chargement des sessions...",
+      "noSessions": "Aucune session active trouvée",
+      "terminate": "Terminer"
+    },
+    "saveChanges": "Enregistrer les Modifications",
+    "saving": "Enregistrement en cours...",
+    "saveSuccess": "Paramètres enregistrés avec succès"
+  },
+  "files": {
+    "title": "Fichiers",
+    "uploadFile": "Télécharger un Fichier",
+    "uploading": "Téléchargement en cours...",
+    "loading": "Chargement des fichiers...",
+    "noFiles": "Aucun fichier trouvé",
+    "shareFile": "Partager un Fichier",
+    "shareWith": "Partager \"{{fileName}}\" avec :",
+    "searchPlaceholder": "Rechercher des utilisateurs",
+    "search": "Rechercher",
+    "share": "Partager",
+    "cancel": "Annuler",
+    "uploadSuccess": "Fichier téléchargé avec succès",
+    "uploadError": "Erreur lors du téléchargement du fichier",
+    "deleteSuccess": "Fichier supprimé avec succès",
+    "deleteError": "Erreur lors de la suppression du fichier",
+    "shareSuccess": "Fichier partagé avec succès",
+    "shareError": "Erreur lors du partage du fichier",
+    "searchError": "Erreur lors de la recherche d'utilisateurs",
+    "loadError": "Erreur lors du chargement des fichiers"
+  },
+  "errors": {
+    "general": "Une erreur s'est produite",
+    "network": "Erreur réseau",
+    "unauthorized": "Non autorisé",
+    "notFound": "Non trouvé",
+    "serverError": "Erreur serveur"
+  }
+}

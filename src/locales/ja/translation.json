@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Solanaブロックチェーン上の安全なメッセージング"
+  },
+  "login": {
+    "tagline": "Solanaブロックチェーン上の安全なメッセージング",
+    "connectWallet": "ウォレットを接続する",
+    "selectWallet": "続行するには、お好みのSolanaウォレットを選択してください",
+    "connectedWith": "接続されたウォレット：",
+    "authenticating": "認証中...",
+    "secureMessaging": "Solanaウォレット認証によるエンドツーエンド暗号化メッセージング",
+    "features": {
+      "encryption": {
+        "title": "エンドツーエンド暗号化",
+        "description": "すべてのメッセージはSignalプロトコルを使用して暗号化され、あなたと受信者だけが読むことができます。"
+      },
+      "wallets": {
+        "title": "複数ウォレットのサポート",
+        "description": "Phantom、Solflare、Solletなど、人気のSolanaウォレットと接続できます。"
+      },
+      "privacy": {
+        "title": "プライバシー優先",
+        "description": "あなたの会話はプライベートです。私たちはメッセージを保存せず、アクセスもしません。"
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "新しいメッセージ",
+    "sendMessage": "メッセージを送信",
+    "attachFile": "ファイルを添付",
+    "typing": "入力中...",
+    "online": "オンライン",
+    "offline": "オフライン",
+    "lastSeen": "最終オンライン {{time}}",
+    "messageDelivered": "配信済み",
+    "messageRead": "既読",
+    "messageSent": "送信済み",
+    "noConversation": {
+      "title": "会話が選択されていません",
+      "description": "チャットを開始するには連絡先を選択してください"
+    }
+  },
+  "contacts": {
+    "title": "連絡先",
+    "searchPlaceholder": "ユーザー名またはウォレットアドレスで検索",
+    "search": "検索",
+    "searching": "検索中...",
+    "searchResults": "検索結果",
+    "add": "追加",
+    "block": "ブロック",
+    "unblock": "ブロック解除",
+    "delete": "削除",
+    "statusPending": "保留中",
+    "statusBlocked": "ブロック済み",
+    "tabs": {
+      "all": "すべて",
+      "pending": "保留中",
+      "blocked": "ブロック済み"
+    },
+    "noContacts": "連絡先が見つかりません",
+    "noPendingContacts": "保留中の連絡先はありません",
+    "noBlockedContacts": "ブロックされた連絡先はありません",
+    "addSuccess": "連絡先が正常に追加されました",
+    "addError": "連絡先の追加中にエラーが発生しました",
+    "blockSuccess": "連絡先が正常にブロックされました",
+    "blockError": "連絡先のブロック中にエラーが発生しました",
+    "unblockSuccess": "連絡先のブロックが正常に解除されました",
+    "unblockError": "連絡先のブロック解除中にエラーが発生しました",
+    "deleteSuccess": "連絡先が正常に削除されました",
+    "deleteError": "連絡先の削除中にエラーが発生しました",
+    "searchError": "ユーザーの検索中にエラーが発生しました"
+  },
+  "profile": {
+    "title": "プロフィール",
+    "username": "ユーザー名",
+    "usernamePlaceholder": "ユーザー名を入力してください",
+    "displayName": "表示名",
+    "displayNamePlaceholder": "表示名を入力してください",
+    "bio": "自己紹介",
+    "bioPlaceholder": "自分自身について他の人に伝えましょう",
+    "walletAddress": "ウォレットアドレス",
+    "profilePicture": "プロフィール画像",
+    "changePicture": "画像を変更",
+    "uploading": "アップロード中...",
+    "saveChanges": "変更を保存",
+    "saving": "保存中...",
+    "updateSuccess": "プロフィールが正常に更新されました"
+  },
+  "settings": {
+    "title": "設定",
+    "tabs": {
+      "privacy": "プライバシー",
+      "security": "セキュリティ",
+      "language": "言語",
+      "sessions": "セッション"
+    },
+    "privacy": {
+      "title": "プライバシー設定",
+      "profileVisibility": "プロフィールの可視性",
+      "public": "公開",
+      "contacts": "連絡先のみ",
+      "private": "非公開",
+      "lastSeen": "最終オンライン",
+      "everyone": "全員",
+      "nobody": "誰も表示しない",
+      "readReceipts": "既読確認を送信"
+    },
+    "security": {
+      "title": "セキュリティ設定",
+      "twoFactor": "二要素認証を有効にする",
+      "loginNotifications": "ログイン通知"
+    },
+    "language": {
+      "title": "言語設定",
+      "select": "言語を選択"
+    },
+    "sessions": {
+      "title": "アクティブなセッション",
+      "loading": "セッションを読み込み中...",
+      "noSessions": "アクティブなセッションが見つかりません",
+      "terminate": "終了"
+    },
+    "saveChanges": "変更を保存",
+    "saving": "保存中...",
+    "saveSuccess": "設定が正常に保存されました"
+  },
+  "files": {
+    "title": "ファイル",
+    "uploadFile": "ファイルをアップロード",
+    "uploading": "アップロード中...",
+    "loading": "ファイルを読み込み中...",
+    "noFiles": "ファイルが見つかりません",
+    "shareFile": "ファイルを共有",
+    "shareWith": "\"{{fileName}}\"を共有：",
+    "searchPlaceholder": "ユーザーを検索",
+    "search": "検索",
+    "share": "共有",
+    "cancel": "キャンセル",
+    "uploadSuccess": "ファイルが正常にアップロードされました",
+    "uploadError": "ファイルのアップロード中にエラーが発生しました",
+    "deleteSuccess": "ファイルが正常に削除されました",
+    "deleteError": "ファイルの削除中にエラーが発生しました",
+    "shareSuccess": "ファイルが正常に共有されました",
+    "shareError": "ファイルの共有中にエラーが発生しました",
+    "searchError": "ユーザーの検索中にエラーが発生しました",
+    "loadError": "ファイルの読み込み中にエラーが発生しました"
+  },
+  "errors": {
+    "general": "エラーが発生しました",
+    "network": "ネットワークエラー",
+    "unauthorized": "権限がありません",
+    "notFound": "見つかりません",
+    "serverError": "サーバーエラー"
+  }
+}

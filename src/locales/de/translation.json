@@ -1,0 +1,156 @@
+{
+  "app": {
+    "name": "TellOnSol",
+    "tagline": "Sichere Messaging auf der Solana-Blockchain"
+  },
+  "login": {
+    "tagline": "Sichere Messaging auf der Solana-Blockchain",
+    "connectWallet": "Verbinde dein Wallet",
+    "selectWallet": "Wähle dein bevorzugtes Solana-Wallet, um fortzufahren",
+    "connectedWith": "Verbunden mit Wallet:",
+    "authenticating": "Authentifizierung...",
+    "secureMessaging": "Ende-zu-Ende verschlüsselte Nachrichten mit Solana-Wallet-Authentifizierung",
+    "features": {
+      "encryption": {
+        "title": "Ende-zu-Ende-Verschlüsselung",
+        "description": "Alle Nachrichten werden mit dem Signal-Protokoll verschlüsselt, sodass nur du und dein Empfänger sie lesen können."
+      },
+      "wallets": {
+        "title": "Unterstützung mehrerer Wallets",
+        "description": "Verbinde dich mit Phantom, Solflare, Sollet und anderen beliebten Solana-Wallets."
+      },
+      "privacy": {
+        "title": "Privatsphäre an erster Stelle",
+        "description": "Deine Gespräche sind privat. Wir speichern deine Nachrichten nicht und haben keinen Zugriff darauf."
+      }
+    }
+  },
+  "chat": {
+    "newMessage": "Neue Nachricht",
+    "sendMessage": "Nachricht senden",
+    "attachFile": "Datei anhängen",
+    "typing": "schreibt...",
+    "online": "online",
+    "offline": "offline",
+    "lastSeen": "zuletzt gesehen {{time}}",
+    "messageDelivered": "Zugestellt",
+    "messageRead": "Gelesen",
+    "messageSent": "Gesendet",
+    "noConversation": {
+      "title": "Keine Unterhaltung ausgewählt",
+      "description": "Wähle einen Kontakt aus, um zu chatten"
+    }
+  },
+  "contacts": {
+    "title": "Kontakte",
+    "searchPlaceholder": "Nach Benutzername oder Wallet-Adresse suchen",
+    "search": "Suchen",
+    "searching": "Suche läuft...",
+    "searchResults": "Suchergebnisse",
+    "add": "Hinzufügen",
+    "block": "Blockieren",
+    "unblock": "Entsperren",
+    "delete": "Löschen",
+    "statusPending": "Ausstehend",
+    "statusBlocked": "Blockiert",
+    "tabs": {
+      "all": "Alle",
+      "pending": "Ausstehend",
+      "blocked": "Blockiert"
+    },
+    "noContacts": "Keine Kontakte gefunden",
+    "noPendingContacts": "Keine ausstehenden Kontakte",
+    "noBlockedContacts": "Keine blockierten Kontakte",
+    "addSuccess": "Kontakt erfolgreich hinzugefügt",
+    "addError": "Fehler beim Hinzufügen des Kontakts",
+    "blockSuccess": "Kontakt erfolgreich blockiert",
+    "blockError": "Fehler beim Blockieren des Kontakts",
+    "unblockSuccess": "Kontakt erfolgreich entsperrt",
+    "unblockError": "Fehler beim Entsperren des Kontakts",
+    "deleteSuccess": "Kontakt erfolgreich gelöscht",
+    "deleteError": "Fehler beim Löschen des Kontakts",
+    "searchError": "Fehler bei der Suche nach Benutzern"
+  },
+  "profile": {
+    "title": "Profil",
+    "username": "Benutzername",
+    "usernamePlaceholder": "Gib deinen Benutzernamen ein",
+    "displayName": "Anzeigename",
+    "displayNamePlaceholder": "Gib deinen Anzeigenamen ein",
+    "bio": "Bio",
+    "bioPlaceholder": "Erzähle anderen von dir",
+    "walletAddress": "Wallet-Adresse",
+    "profilePicture": "Profilbild",
+    "changePicture": "Bild ändern",
+    "uploading": "Wird hochgeladen...",
+    "saveChanges": "Änderungen speichern",
+    "saving": "Wird gespeichert...",
+    "updateSuccess": "Profil erfolgreich aktualisiert"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "tabs": {
+      "privacy": "Datenschutz",
+      "security": "Sicherheit",
+      "language": "Sprache",
+      "sessions": "Sitzungen"
+    },
+    "privacy": {
+      "title": "Datenschutzeinstellungen",
+      "profileVisibility": "Profilsichtbarkeit",
+      "public": "Öffentlich",
+      "contacts": "Nur Kontakte",
+      "private": "Privat",
+      "lastSeen": "Zuletzt gesehen",
+      "everyone": "Jeder",
+      "nobody": "Niemand",
+      "readReceipts": "Lesebestätigungen senden"
+    },
+    "security": {
+      "title": "Sicherheitseinstellungen",
+      "twoFactor": "Zwei-Faktor-Authentifizierung aktivieren",
+      "loginNotifications": "Anmeldebenachrichtigungen"
+    },
+    "language": {
+      "title": "Spracheinstellungen",
+      "select": "Sprache auswählen"
+    },
+    "sessions": {
+      "title": "Aktive Sitzungen",
+      "loading": "Sitzungen werden geladen...",
+      "noSessions": "Keine aktiven Sitzungen gefunden",
+      "terminate": "Beenden"
+    },
+    "saveChanges": "Änderungen speichern",
+    "saving": "Wird gespeichert...",
+    "saveSuccess": "Einstellungen erfolgreich gespeichert"
+  },
+  "files": {
+    "title": "Dateien",
+    "uploadFile": "Datei hochladen",
+    "uploading": "Wird hochgeladen...",
+    "loading": "Dateien werden geladen...",
+    "noFiles": "Keine Dateien gefunden",
+    "shareFile": "Datei teilen",
+    "shareWith": "\"{{fileName}}\" teilen mit:",
+    "searchPlaceholder": "Nach Benutzern suchen",
+    "search": "Suchen",
+    "share": "Teilen",
+    "cancel": "Abbrechen",
+    "uploadSuccess": "Datei erfolgreich hochgeladen",
+    "uploadError": "Fehler beim Hochladen der Datei",
+    "deleteSuccess": "Datei erfolgreich gelöscht",
+    "deleteError": "Fehler beim Löschen der Datei",
+    "shareSuccess": "Datei erfolgreich geteilt",
+    "shareError": "Fehler beim Teilen der Datei",
+    "searchError": "Fehler bei der Suche nach Benutzern",
+    "loadError": "Fehler beim Laden der Dateien"
+  },
+  "errors": {
+    "general": "Ein Fehler ist aufgetreten",
+    "network": "Netzwerkfehler",
+    "unauthorized": "Nicht autorisiert",
+    "notFound": "Nicht gefunden",
+    "serverError": "Serverfehler"
+  }
+}
